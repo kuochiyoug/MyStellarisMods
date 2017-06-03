@@ -1,0 +1,336 @@
+
+portraits = {
+	Hakuoro = {	texturefile = "gfx/models/portraits/decoi/decoi_m0.dds"  }
+	Decoi_m1 = {	texturefile = "gfx/models/portraits/decoi/decoi_m1.dds"  }
+	Decoi_m2 = {	texturefile = "gfx/models/portraits/decoi/decoi_m2.dds"  }
+	Decoi_m3 = {	texturefile = "gfx/models/portraits/decoi/decoi_m3.dds"  }
+	Decoi_m4 = {	texturefile = "gfx/models/portraits/decoi/decoi_m4.dds"  }
+	Decoi_m5 = {	texturefile = "gfx/models/portraits/decoi/decoi_m5.dds"  }
+	Decoi_m6 = {	texturefile = "gfx/models/portraits/decoi/decoi_m6.dds"  }
+	Decoi_m7 = {	texturefile = "gfx/models/portraits/decoi/decoi_m7.dds"  }
+	Decoi_m8 = {	texturefile = "gfx/models/portraits/decoi/decoi_m8.dds"  }
+	Decoi_m9 = {	texturefile = "gfx/models/portraits/decoi/decoi_m9.dds"  }
+	Decoi_m10 = {	texturefile = "gfx/models/portraits/decoi/decoi_m10.dds"  }
+	Decoi_m11 = {	texturefile = "gfx/models/portraits/decoi/decoi_m11.dds"  }
+	Decoi_m12 = {	texturefile = "gfx/models/portraits/decoi/decoi_m12.dds"  }
+	Decoi_m13 = {	texturefile = "gfx/models/portraits/decoi/decoi_m13.dds"  }
+	Decoi_m14 = {	texturefile = "gfx/models/portraits/decoi/decoi_m14.dds"  }
+	Decoi_m15 = {	texturefile = "gfx/models/portraits/decoi/decoi_m15.dds"  }
+	Decoi_m16 = {	texturefile = "gfx/models/portraits/decoi/decoi_m16.dds"  }
+	Decoi_m17 = {	texturefile = "gfx/models/portraits/decoi/decoi_m17.dds"  }
+	Decoi_m18 = {	texturefile = "gfx/models/portraits/decoi/decoi_m18.dds"  }
+	Decoi_f1 = {	texturefile = "gfx/models/portraits/decoi/decoi_f1.dds"  }
+	Decoi_f2 = {	texturefile = "gfx/models/portraits/decoi/decoi_f2.dds"  }
+	Decoi_f3 = {	texturefile = "gfx/models/portraits/decoi/decoi_f3.dds"  }
+	Decoi_f4 = {	texturefile = "gfx/models/portraits/decoi/decoi_f4.dds"  }
+	Decoi_f5 = {	texturefile = "gfx/models/portraits/decoi/decoi_f5.dds"  }
+	Decoi_f6 = {	texturefile = "gfx/models/portraits/decoi/decoi_f6.dds"  }
+	Decoi_f7 = {	texturefile = "gfx/models/portraits/decoi/decoi_f7.dds"  }
+	Decoi_f8 = {	texturefile = "gfx/models/portraits/decoi/decoi_f8.dds"  }
+	Decoi_f9 = {	texturefile = "gfx/models/portraits/decoi/decoi_f9.dds"  }
+	Decoi_f10 = {	texturefile = "gfx/models/portraits/decoi/decoi_f10.dds"  }
+	Decoi_f11 = {	texturefile = "gfx/models/portraits/decoi/decoi_f11.dds"  }
+	Decoi_f12 = {	texturefile = "gfx/models/portraits/decoi/decoi_f12.dds"  }
+	Decoi_f13 = {	texturefile = "gfx/models/portraits/decoi/decoi_f13.dds"  }
+	Decoi_f14 = {	texturefile = "gfx/models/portraits/decoi/decoi_f14.dds"  }
+	Decoi_f15 = {	texturefile = "gfx/models/portraits/decoi/decoi_f15.dds"  }
+	Decoi_f16 = {	texturefile = "gfx/models/portraits/decoi/decoi_f16.dds"  }
+	Decoi_f17 = {	texturefile = "gfx/models/portraits/decoi/decoi_f17.dds"  }
+	Decoi_f18 = {	texturefile = "gfx/models/portraits/decoi/decoi_f18.dds"  }
+	Decoi_f19 = {	texturefile = "gfx/models/portraits/decoi/decoi_f19.dds"  }
+	Decoi_f20 = {	texturefile = "gfx/models/portraits/decoi/decoi_f20.dds"  }
+	Decoi_f21 = {	texturefile = "gfx/models/portraits/decoi/decoi_f21.dds"  }
+	Decoi_f22 = {	texturefile = "gfx/models/portraits/decoi/decoi_f22.dds"  }
+	Decoipop1 = {	texturefile = "gfx/models/portraits/decoi/pop1.dds"  }
+	Decoipop2 = {	texturefile = "gfx/models/portraits/decoi/pop2.dds"  }
+	Decoipop3 = {	texturefile = "gfx/models/portraits/decoi/pop3.dds"  }
+	Decoipop4 = {	texturefile = "gfx/models/portraits/decoi/pop4.dds"  }
+	Decoipop5 = {	texturefile = "gfx/models/portraits/decoi/pop5.dds"  }	
+	Decoipop6 = {	texturefile = "gfx/models/portraits/decoi/pop6.dds"  }
+	Decoipop7 = {	texturefile = "gfx/models/portraits/decoi/pop7.dds"  }
+}	
+	
+portrait_groups = {
+
+
+Decoi = {
+		default = Decoi_f1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+
+					Decoi_f1
+					Decoi_f2
+					Decoi_f3
+					Decoi_f4
+					Decoi_f5
+					Decoi_f6
+					Decoi_f7
+					Decoi_f9
+					Decoi_f10
+					Decoi_f11
+					Decoi_f12
+					Decoi_f13
+					Decoi_f14
+					Decoi_f15
+					Decoi_f16
+					Decoi_f17
+					Decoi_f18
+					Decoi_f19
+					Decoi_f20
+					Decoi_f21
+					Decoi_f22
+					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					Hakuoro
+					Decoi_m1
+					Decoi_m2
+					Decoi_m3
+					Decoi_m4
+					Decoi_m5
+					Decoi_m6
+					Decoi_m7
+					Decoi_m8
+					Decoi_m9
+					Decoi_m10
+					Decoi_m11
+					Decoi_m12
+					Decoi_m13
+					Decoi_m14
+					Decoi_m15
+					Decoi_m16
+					Decoi_m17
+					Decoi_m18
+				}
+			}
+
+
+		}
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+
+					Decoi_m1
+					Decoi_m2
+					Decoi_m3
+					Decoi_m4
+					Decoi_m5
+					Decoi_m6
+					Decoi_m7
+					Decoi_m8
+					Decoi_m9
+					Decoi_m10
+					Decoi_m11
+					Decoi_m12
+					Decoi_m13
+					Decoi_m14
+					Decoi_m15
+					Decoi_m16
+					Decoi_m17
+					Decoi_m18
+					Decoi_f1
+					Decoi_f2
+					Decoi_f3
+					Decoi_f4
+					Decoi_f5
+					Decoi_f6
+					Decoi_f7
+					Decoi_f9
+					Decoi_f10
+					Decoi_f11
+					Decoi_f12
+					Decoi_f13
+					Decoi_f14
+					Decoi_f15
+					Decoi_f16
+					Decoi_f17
+					Decoi_f18
+					Decoi_f19
+					Decoi_f20
+					Decoi_f21
+					Decoi_f22
+				}
+			}
+
+
+		}
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+				
+					Decoi_m2
+					Decoi_m3
+					Decoi_m4
+					Decoi_m5
+					Decoi_m6
+					Decoi_m7
+					Decoi_m8
+					Decoi_m9
+					Decoi_m10
+					Decoi_m11
+					Decoi_m12
+					Decoi_m13
+					Decoi_f2
+					Decoi_f3
+					Decoi_f4
+					Decoi_f5
+					Decoi_f6
+					Decoi_f7
+					Decoi_f9
+					Decoi_f10
+					Decoi_f11
+					Decoi_f12
+					Decoi_f13
+					Decoi_f14
+					Decoi_f15
+					Decoi_f16
+					Decoi_f17
+					Decoipop1
+					Decoipop2
+					Decoipop3
+					Decoipop4
+					Decoipop5
+					Decoipop6
+					Decoipop7
+				}
+			}
+
+		}
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+					Decoi_f1
+					Decoi_f2
+					Decoi_f3
+					Decoi_f4
+					Decoi_f5
+					Decoi_f6
+					Decoi_f7
+					Decoi_f9
+					Decoi_f10
+					Decoi_f11
+					Decoi_f12
+					Decoi_f13
+					Decoi_f14
+					Decoi_f15
+					Decoi_f16
+					Decoi_f17
+					Decoi_f18
+					Decoi_f19
+					Decoi_f20
+					Decoi_f21
+					Decoi_f22
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+
+					Decoi_m1
+					Decoi_m2
+					Decoi_m3
+					Decoi_m4
+					Decoi_m5
+					Decoi_m6
+					Decoi_m7
+					Decoi_m8
+					Decoi_m9
+					Decoi_m10
+					Decoi_m11
+					Decoi_m12
+					Decoi_m13
+					Decoi_m14
+					Decoi_m15
+					Decoi_m16
+					Decoi_m17
+					Decoi_m18
+					
+				}
+			}
+
+
+		}
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+
+					Decoi_f1
+					Decoi_f2
+					Decoi_f3
+					Decoi_f4
+					Decoi_f5
+					Decoi_f6
+					Decoi_f7
+					Decoi_f9
+					Decoi_f10
+					Decoi_f11
+					Decoi_f12
+					Decoi_f13
+					Decoi_f14
+					Decoi_f15
+					Decoi_f16
+					Decoi_f17
+					Decoi_f18
+					Decoi_f19
+					Decoi_f20
+					Decoi_f21
+					Decoi_f22
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					Hakuoro
+					Decoi_m1
+					Decoi_m2
+					Decoi_m3
+					Decoi_m4
+					Decoi_m5
+					Decoi_m6
+					Decoi_m7
+					Decoi_m8
+					Decoi_m9
+					Decoi_m10
+					Decoi_m11
+					Decoi_m12
+					Decoi_m13
+					Decoi_m14
+					Decoi_m15
+					Decoi_m16
+					Decoi_m17
+					Decoi_m18
+					
+				}
+			}
+
+		}
+	}
+
+}

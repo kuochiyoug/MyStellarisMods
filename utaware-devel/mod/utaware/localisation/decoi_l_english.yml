@@ -1,0 +1,26 @@
+﻿l_english:
+
+ IS_SPECIES_CLASS_TRIGGER:0 "Is corresponding species class"
+ 
+ FLAG_CATEGORY_decoi:0 "Decoi"
+ 
+ START_SCREEN_YAMATO:0 "Yamato is a great Empire built by Mikato"
+ 
+ EMPIRE_DESIGN_UtawareYamato:0 "Yamato Empire"
+ EMPIRE_DESIGN_UtawareYamato_desc:0 "Since Mikato dead, Yamato Empire fall into a long civil war against usurper and finally ends on Tensi Anjyu. However the damage fron atmosphere adjustment sattlite is un-inversable force Yamato Empire run into space and search for better space for live."
+ EMPIRE_DESIGN_UtawareTusukuru:0 "Tusukuru"
+ EMPIRE_DESIGN_UtawareTusukuru_desc:0 "The country that protected by Utawarerumono. The God named Witsarunemitia or Hakuoro gave the blessing to their land and people with his love. They are super unified and prepare to defend the place where their god sleeps. \n Tusukuru is a country borned with love and blood, they always prepare for battle but also has great leader skills. Education is always first priority in this country because they knew that knowlegde and intel is the key to win and protect themselves."
+ DECOI:0 "DECOI"
+
+ trait_tosukuru:0 "Praise Utawarerumono"
+ trait_tosukuru_desc:0 "The Power of Witsarunemitia give the divine protection to Tusukuru people."
+ trait_yamato:0 "Praise Onbidaikai"
+ trait_yamato_desc:0 "The divine Onbidaikai left massive knowlegde to their children and gave them the powerful mask to demonstrate the power of empire."
+ trait_aturukuruka_attack:0 "Aturukuruka of Attack"
+ trait_aturukuruka_desc:0 "This leader has the powerful mask that gave from Mikato. This mask boost the damage of weapon, however cut the life of user"
+ trait_aturukuruka_defend:0 "Aturukuruka of Defend"
+ trait_aturukuruka_defend_desc:0 "This leader has the powerful mask that gave from Mikato. This mask boost the defensive ability, however cut the life of user"
+ 
+ 
+ 
+ name_list_decoi:0 "Utawarerumono"

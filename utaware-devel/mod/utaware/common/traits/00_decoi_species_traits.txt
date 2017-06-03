@@ -1,0 +1,53 @@
+##################
+# Species Traits #
+##################
+
+trait_tosukuru = {
+	cost = 2
+	initial = no
+	modification = no
+	sentient = no
+	icon = "gfx/interface/icons/traits/tusukuru_trait.dds"
+	#opposites = { "trait_yamato"}
+
+	modifier = {
+		edict_influence_cost = -0.5
+		leader_skill_levels = 3
+		pop_ethic_shift = -0.3
+		army_morale = 1.0
+		army_damage_mult = 0.5
+		army_defense_morale_mult = 2.0
+		army_defense_damage_mult = 0.5
+		pop_happiness = 0.5
+		tile_resource_engineering_research_mult = 3.0
+		tile_resource_physics_research_mult = 3.0
+		tile_resource_society_research_mult = 3.0
+		tile_resource_minerals_mult = -0.05
+		tile_resource_energy_mult = -0.05
+		pop_food_req_mult = 0.1
+		pop_migration_time = -1
+		garrison_health = 2.0
+	}
+}
+
+trait_yamato = {
+	cost = 2
+	initial = no
+	modification = no
+	sentient = no
+	icon = "gfx/interface/icons/traits/yamato_trait.dds"
+	opposites = { "trait_tosukuru" }
+
+	modifier = {
+		leader_skill_levels = 1
+		species_leader_exp_gain = 0.50
+		pop_happiness = 0.30
+		pop_ethic_shift = -0.3
+		army_damage_mult = 0.2
+		tile_resource_food_mult = 1.0
+		tile_resource_energy_mult = 1.0
+		tile_resource_minerals_mult = 1.0
+		pop_slavery_tolerance = 1
+		pop_fortification_defense = 2.0
+	}
+}

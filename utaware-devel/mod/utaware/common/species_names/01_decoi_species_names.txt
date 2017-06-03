@@ -1,0 +1,11 @@
+﻿### DECOI
+
+Decoi = {
+	decoi = {
+		name = "Decoi"
+		plural = "Decoies"
+		home_planet = "Tusukuru"
+		home_system = "Utawarerumono"	
+		name_list = "decoi"
+	}
+}

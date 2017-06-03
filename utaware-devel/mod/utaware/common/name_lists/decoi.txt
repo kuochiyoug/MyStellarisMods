@@ -1,0 +1,192 @@
+﻿decoi = {
+	randomized = yes
+
+	ship_names = {
+		generic = {
+			Akagi Akashi Akitsu Amagi Ataka Atami Chidori Chitose Chiyoda Fushimi Futami Hato Hatsukari Hayabusa Hayasui Hira Hiryuu Hiyodori Hiyou Houshou Hozu Jun'you Kaga Karatsu Kari Kasasagi Kashima Katada Katori Katsuragi Kiji Kotaka Kumataka Manazuru Maru Maruyu Okitsu Otaka Otori Ryuuhou Ryuujou Sagi Seta Shiritaka Shouhou Shoukaku Souryuu Sumida Taigei Taihou Tatara Toba Tomozuru Umitaka Unryuu Wakataka Zuihou Zuikaku
+			Agatsuka Akiryura Awaman Chiruga Etahin Fuji Fukura Funawa Gashiki Hama Hamizu Hikoda Hima Hira Ichiban Ichibuno Ikinoh Imasoen Irisan Irokan Ishiman Ishinain Itaman Izunin Kaoka Karo Kate Kato Katsoe Kawa Kawaji Kawari Ketaki Kisenei Kita Komaezu Kusahi Kuyama Kyotouchi Maebari Magasu Mataki Matsano Matsugi Miura Mogi Mora Mura Naba Nabe Nagama Nishaka Nogara Okuman Orichin Oyakiman Sehima Shibato Shikaki Shima Suda Suki Tachanoya Taibara Takasu Takawa Taki Takura Tamatsu Tenbayashi Tenra Tomatsu Tondo Tottaki Uzawan Yakatan Yarakin
+		}
+
+		corvette = {
+			Karunerai Gakumurai Shitourai Jyusourai Tiriryarai Berierai Rakusharai Kamunagi
+		}
+
+		destroyer = {
+			Itaku Irawashi Genhou Shisu Shichiiriya Soyannkekuru Dekoponpo Tokifusa Miruujyu
+		}
+
+		cruiser = {
+			Atoui Nosuri Oshutoru Ohugi Kiuru Sakon Ukonn Saraana Nekone Funiruiru Honoka Maroro Mikazuchi Mito Munechika Yashuma Raikou
+		}
+
+		battleship = {
+			Haku Hakuoro Eruru Aruru Kamira Touka Oboro Kamyu Urutori Kuon Benawi Kurou Gura Dori Tosukuru Yamato Anjyu Yakutowaruto Rurutiie
+		}
+
+		science = {
+			Aishima Aoshima Asuka Bungo Chichijima Chogei Enoshima Futami Ha Hachijyo Harima Hatsusima Hibiki Hirashima Itsukushima Izushima Jingei Kumejima Kuroshima Maejima Miyajima Muroto Nagashima Naoshima Nichinan Notojima Ro Shinyo Shishijima Shonan Sugashima Suma Taigei Takashima Toyoshima Tsunoshima Tsushima Ukushima Uraga Yaeyama Yakushima Yu Yugeshima
+		}
+
+		colonizer = {
+			Arasaki Asashio Chihaya Chiyoda Hashidate Hayasaki Irako Kashima Kinesaki Kitakami-Maru Kunisaki Kurasaki Kurobe Mamiya Mogami Muroto Nosaki Oosumi Oyashio Setoyuki Shimayuki Shimokita Shirasaki Shirase Tenryu Yamayuki
+		}
+
+		constructor = {
+			Akashi Akitsushima Amakusa Asahi Chitose Chiyoda Enshu Genkai Hamana Hiuchi "Kamikawa Maru" Kamoi Mashu Mizuho Nisshin Notoro Omi Suo Tokiwa Towada Wakamiya
+		}
+
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+
+		outpost_station = {
+			sequential_name = "Kanshito %R%"
+		}
+
+		military_station_small = { }
+
+		military_station_medium = { }
+
+		military_station_large = { 
+			Amaterasu Wituarunemithia
+		}
+	}
+
+	fleet_names = {
+		random_names = {
+			"Hakuoro Kantai" "Eruru Kantai" "Aruru Kantai" "Kamira Kantai" "Touka Kantai" "Kamyu Kantai" "Oboro Kantai" "Urutori Kantai" "Kuon Kantai" "Benawi Kantai" "Kurou Kantai" "Gura Kantai" "Dori Kantai"
+		}
+		#sequential_name = "Uchu Kantai %R%"
+	}
+
+	###ARMIES
+	army_names = {
+
+		defense_army = {
+			sequential_name = "Kurirya-Rai %R%"
+		}
+
+		assault_army = {
+			sequential_name = "Rakusha-Rai %R%"
+		}
+
+		slave_army = {
+			sequential_name = "Kenamu-Rai %R%"
+		}
+
+		clone_army = {
+			sequential_name = "Kuron-Rai %R%"
+		}
+
+		robotic_army = {
+			sequential_name = "Abu-Gamu Troop %R%"
+		}
+
+		android_army = {
+			sequential_name = "Ai-Abu-Gamu Troop %R%"
+		}
+
+		psionic_army = {
+			sequential_name = "Jyusou-Rai %R%"
+		}
+
+		xenomorph_army = {
+			sequential_name = "Tatari Troop %R%"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "Akurutuoruka Troop %R%"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Hakuoro Eruru Aruru Kamira Touka Oboro Kamyu Urutori Kuon Benawi Kurou Gura Dori
+			}
+		}
+
+		pc_desert = {
+			names = {
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		names1 = {
+			weight = 100
+
+			full_names = {
+				"An" "Atoui" "Shinonon" "Itaku" "Irawaji" "Wuosshi" "Ukonn" "Ururu" "Shasurika" "Entouwa" "Soyankekuru" "Ohzen" "Chikinaro" "Dekoponpo" "Tokifusa" "Torigori" "Nekone" "Miru-jyu" "Mukaru" "Mutumi" "Yuzuha"
+			}
+
+            first_names_male = {
+				Akahito Aki Akihiko Akihiro Akihisa Akihito Akikazu Akinari Akinori Akio Akira Amane Anzai Arata Arinori Aritomo Ashihei Atasuke Atshushi Atsumichi Atsumori Atsutane Azumamaro Baiko Bairei Bakin Basho Benjiro Benkei Bokkai Buncho Bunjiro Bunrakuken Bunzo Bussho Chikafusa Chikao Chojiro Chomei Chuichi Daisetsu Daisuke Danjuro Dayu Denbe Doi Dokuohtei Doppo Ebizo Eichi Eichiro Eien Eiichi Eiji Eijiro Eikichi Eisaku Eisen Eishi Eisuke Eitoku Eizan Eizo Ekiken Ennosuke Etsuya Fujimaro Fujio Fukusaburu Fumiaki Fumihiko Fumihiro Fumimaro Fumio Gaho Gekko Gempachi Gengyo Genichi Genjo Gennai Gennosuke Genpaku Gesshin Gidayu Gihei Giichi Go Goemon Gombei Gonkuro Gonnohyoe Gonshiro Goro Gyo Gyokusho Gyukudo Hachemon Hachigoro Hachiro Hajime Hakuseki Hanshiro Haranobu Haru Haruhiko Haruhiro Haruki Harumi Harunobu Hayato Heihachiro Heiji Heikichi Heizo Hideaki Hidehira Hidekazu Hideki Hidemichi Hideo Hidetada Hidetora Hidetoshi Hidetsugu Hideyori Hideyoshi Higashikuni Hikaru Hikosaburo Hikozaemon Hiro Hiroaki Hirobumi Hirofumi Hiroharu Hirohisa Hiroji Hirokazu Hirokichi Hirokumi Hiroshi Hiroshige Hirotada Hirotaka Hirotsugu Hiroya Hiroyasu Hiroyuki Hisahsi Hisaki Hisamitsu Hisanobu Hisashi Hisato Hisayuki Hitomaro Hitoshi Hogai Hoitsu Hokichi Hokusai Honzo Horiuchi Hoshi Hoshiko Hyobe Hyosuke Hyotaru Ichibei Ichiro Ichisake Ichiyo Ichizo Iemitsu Iemochi Ienobu Iesada Ieshige Ietsuna Ieyasu Ieyoshi Ikemoto Ikki Ikku Inejiro Ippei Isamu Isao Isei Ishiro Isoruko Isoshi Iwane Iwao Izo Izumo Jakuchu Jin Jinzaburo Jiro Jo Joji Josuke Jotaro Jou Juichi Jun Junichi Junichiro Junji Junnosuke Junzo Juro Jurobei Juzaburo Juzo Kadonomaro Kafu Kagehisa Kagetoki Kageyasu Kaii Kakuei Kakuzo Kamatari Kan Kanbe Kaneie Kanezane Kanjiro Kanko Kansuke Kantaro Kanzaburo Kaoru Kata Katai Katsuhiko Katsuhito Katsumi Katsumoto Katsunan Katsunosuki Katsuyoshi Katsuyuki Katzumi Kawanari Kaz Kazu Kazuhiko Kazuhiro Kazuki Kazuko Kazuma Kazunari Kazunori Kazuo Kazushi Kazushige Kazutoshi Kazuyoshi Kazuyuki Kei Keiji Keiki Keishi Keisuke Keita Keitaro Keizo Ken Kenichi Kenji Kenjiro Kenkichi Kenko Kensaku Kenshin Kentaro Kenzaburo Kenzan Kenzo Kichibei Kichisaburo Kiemon Kiichi Kijuro Kikaku Kikugoro Kikunojo Kimi Kiminobu Kimitada Kingo Kinji Kinmochi Kinnojo Kinnosuke Kinzo Kisho Kitahachi Kiyoemon Kiyohira Kiyohisa Kiyomasu Kiyomitsu Kiyomori Kiyonaga Kiyonobu Kiyonori Kiyoshi Kiyotaka Koan Kobo Koetsu Kohei Koichi Koin Koji Kojiro Kojuro Kokan Kokei Koki Kokushi Konosuke Konoye Konyo Korechika Korekiyo Korenaga Korin Koryusai Kosaku Kosami Koshiro Kosho Kotaro Koto Koyo Kozue Kuemon Kuma Kumanosuke Kuniaki Kunihiko Kunimatsu Kunimichi Kunio Kunisada Kunitaro Kuniyoshi Kuniyuki Kyoden Kyoichi Kyoji Kyoshi Kyuichi Kyushichi Kyuso Kyuwa Mabuchi Magbei Magobei Magohachi Makoto Mamoru Manabu Manobu Maresuke Marihito Masaaki Masafumi Masaharu Masahide Masahiko Masahiro Masakado Masakazu Masaki Masami Masamichi Masamune Masanobu Masanori Masao Masaru Masashi Masashige Masatake Masato Masayoshi Masayuki Masazumi Mashai Mashashi Masu Masuhiro Masujiro Masutaro Matabei Matashichi Matsu Matsudaira Matsuo Matsusuke Matsuta Matsuyo Meiji Michihiro Michinaga Michinori Michio Michizane Minoru Misao Mito Mitsuharu Mitsuhide Mitsukuni Mitsunari Mitsuo Mitsuoki Mitsuzuka Miyazaki Miyoko Mobumasu Mochihito Mokichi Mokuami Momoru Monzaemon Morie Morihiro Morimasa Moromao Moronobu Motoichi Motoki Motonobu Motoshige Mototsune Motoyasu Motoyuki Munemitsu Munemori Munenori Muneyaki Munoto Murai Mushanokoji Mutsohito Mutsuhito Naganori Naizen Nakamaro Nakazo Namboku Nampo Naoaki Naofumi Naohiro Naoki Naomi Naomichi Naonobu Naosuke Naoya Naozane Narahiko Nariaki Nariakira Narihari Narihira Naruhiko Natsu Natsume Natsuo Nichiren Ninsei Niou Nissho Noboru Nobuatsu Nobuharu Nobuhiko Nobuhisa Nobuhito Nobukazu Nobuo Noburo Nobusuke Nobuyoki Nobuyori Nobuyoshi Nori Noriaki Norihide Norihisa Norinaga Norio Norishige Noritada Noritoshi Noriyori Noriyuki Norogumi Oda Ogai Okakura Okitsugu Okura Okyoito Omezo Oniji Orinosuke Osamu Otojiro Razan Reijiro Rikiya Rikyu Rintaro Rkuemon Robun Roku Rosanjin Ryo Ryobe Ryoichi Ryoko Ryoma Ryosei Ryozo Ryu Ryuichi Ryunosuke Ryushi Ryutaro Ryuzaburo Saburo Sachi Sadaharu Sadahige Sadakuno Sadanobu Sadao Sadatake Sadayoshi Saemon Saikaku Saionji Sakutaro Samba Saneatsu Sanetomo Sanjiro Sanjuro Sanraku Sanzo Satoru Satoshi Sawao Seibei Seiesnsui Seihachi Seiho Seiichi Seiji Seika Seiki Seinosuke Seiryo Seishiro Seishisai Seisi Seison Seitaro Seizaburo Sekien Sen Senichi Senzo Sessue Settan Sharaku Shiba Shichirobei Shigeaki Shigekazu Shigeki Shigeko Shigemasa Shigematsu Shigemori Shigenaga Shigenobu Shigeru Shigetaka Shigetoki Shigochiyo Shihei Shihi Shiki Shiko Shimei Shimpei Shingen Shinichi Shinji Shinkichi Shino Shinobu Shinrikiyaru Shinsaku Shinsui Shintaro Shinzo Shirai Shirosama Shizue Sho Shogo Shohei Shoichi Shoin Shoji Shojiro Shoko Shoraku Shosuke Shotaro Shoyo Shozaburo Shozo Shuichi Shuji Shukishi Shuko Shumei Shumkichi Shun Shun'en Shuncho Shungyosai Shunichi Shunji Shunko Shunmyo Shunsen Shunsho Shunso Shunsuke Shusake Shusaku Shusui Shuzo Soetsu Sofu Soh Soichiro Sojuro Sorai Sosa Soseki Soshitsu Soshu Sosuke Sotan Sotaro Sotatsu Sozen Sozui Ssekien Subaru Suezo Sugimoto Sugita Sukejuro Sukenobu Suketsune Sukeyasu Sumio Sumiteru Sumitomo Susumu Tabito Tadaaki Tadahisa Tadakuni Tadamasa Tadamichi Tadanobu Tadao Tadashi Tadasu Tadasuke Tadataka Tadayoshi Tadayuki Tadiyuki Tagashashi Taheiji Taikan Taisho Taisuke Taizo Takaaki Takafumi Takahashi Takahiro Takakazu Takamasa Takamori Takamuku Takane Takanibu Takanobu Takanori Takao Takashi Takauji Takayuki Takechi Takehide Takeichi Takeji Takejiro Takenao Takeo Takeru Takeshi Takesi Taki Takiji Takuboku Takuji Takuma Takuro Takuya Tamasaburo Tameyoshi Tamotsu Tamuramaro Tango Tanosuke Tanyu Tanzan Taro Taroemon Tarozaemon Tashiaki Tashiro Tasuku Tatsui Tatsukichi Tatsuya Tatsuzo Taysuke Teika Teinosuke Tekkan Tenshin Terao Teriuihi Terumoto Teruo Tessai Tetsu Tetsuhiko Tetsui Tetsunori Tetsuo Tetsuya Tetsuyuki Tetsuzan Thoki Tobei Togai Tohaku Toichi Toin Toju Tokaji Toki Tokichiro Tokimasa Tokimune Tokugawa Tokuhei Tokuma Tokutomi Tomiichi Tomiji Tomoaki Tomohiko Tomokazu Tomomi Tomoyuki Ton Torajiro Toranosuke Torazo Toru Toshiaki Toshiharu Toshikasu Toshikazu Toshiki Toshikuni Toshimichi Toshinobu Toshio Toshiro Toshitsugu Toshiyuki Toson Totoya Toyoaki Toyoharu Toyokazu Toyokuni Toyonobu Toyoshige Toyotomi Toyozo Tsugahara Tsugiharu Tsuginori Tsugumichi Tsukasa Tsumemasa Tsunayoshi Tsuneari Tsuneo Tsunesaburo Tsuneyo Tsuramatsu Tsurayaki Tsurayuki Tsuruki Tsutomu Tsuyoshi Ukon Ukyo Unkei Utaemon Utamara Utamaro Utamuro Utemaro Waotaka Washi Washichi Yachi Yahei Yaichiro Yajirobei Yakamochi Yakumo Yamato Yasotaro Yasuhide Yasuhiko Yasuhiro Yasujiro Yasukazu Yasunari Yasunobu Yasuo Yasuoka Yasushi Yasutake Yasutoki Yasuyuki Yataro Yatsuhiro Yaziyuki Yeijiro Yo Yodo Yohachi Yoichi Yoichibei Yoriie Yorikane Yoringa Yoritoki Yoritomo Yoriyoshi Yoriyuki Yosai Yoshi Yoshiaga Yoshiaki Yoshida Yoshifumi Yoshifusa Yoshihide Yoshihiro Yoshihisa Yoshihito Yoshii Yoshiiku Yoshikazu Yoshiki Yoshimasa Yoshimatsu Yoshimi Yoshimitsu Yoshimochi Yoshimune Yoshinaka Yoshino Yoshinobu Yoshinori Yoshio Yoshisada Yoshitaka Yoshitake Yoshiteru Yoshitoki Yoshitomo Yoshitora Yoshitoshi Yoshitsune Yoshiyuki Yoson Yosuke Yozo Yugoro Yuichi Yuifum Yuji Yujiro Yuki Yukichi Yukinaga Yukio Yuko Yunosuke Yushiro Yusuke Yutaka Yutake Zenko Zeshin
+				Akaen Aken Akin Aman Anon Aran Aron Atsuko Awan Chiri Damo Doma Done Ehan Ekin Eshin Fuji Fukai Funo Fusu Gawa Hari Haro Haru Hido Higa Hige Higo Higu Hihi Hike Hiko Hima Hine Hineo Hiomi Hira Hiro Hoke Hora Ichin Ideyon Igan Igon Iiman Iran Iron Ishin Itan Iwan Kahi Kaji Kake Kaki Kama Kani Kaoko Kara Kasu Katsa Katsu Kawa Kazo Kazu Kenka Kichi Kiki Kimo Kino Kinoe Kioka Kishi Kito Kitsa Kiyohi Kono Kosa Koto Kube Kudo Kugai Kuni Kunoye Kura Kuri Kuro Kusei Kyoshi Kyusu Mama Mamai Mano Mara Mari Maro Masa Masu Masuo Matsa Meiji Mihi Misa Mitsu Mochi Mone Mono Monoe Mota Mura Musha Mutso Naka Naki Nama Nichio Nishi Nobu Noka Noru Okan Onoh Onon Oshin Oshuko Otan Oukon Rofu Sabu Sahi Saka Saki Sambei Sashi Sasu Seko Shari Shashi Shiba Shida Shide Shigi Shika Shike Shima Shimai Shino Shira Shiro Shiru Shishioya Shitsai Soshi Sosu Suga Sugai Suhi Suke Suki Tada Taemi Taga Tagi Taka Takai Takaya Take Taki Tako Taku Tama Tara Tari Toka Toma Toro Toshi Toyoaki Toyohi Toyuki Tsabu Tsanyo Tsawa Tseki Tsumei Tsumi Uran Wano Yakan Yaken Yaron Yawan Yobein Yofun Yokin Yoron Yoshin Yotan Yotoyan Yukin
+			}
+
+            first_names_female = {
+				Ai Aiko Akane Akemi Aki Akiko Akuro Ami Arisa Asako Asami Atsuko Aya Ayako Ayame Ayano Chiaki Chie Chieko Chika Chikako Chikuma Chinatsu Chisato Chitose Chiyeko Chiyo Echiko Eiko Ema Emi Emiko Eri Eriko Etsuko Euiko Fujiko Fumi Fumie Fumiki Fumiko Fumiyo Fusae Fuyuko Gemmei Ginko Hama Hana Hanae Hanako Haniko Harukichi Haruko Harumi Hatsue Hatsuyo Hideko Hikaru Hiroe Hiroko Hiromi Hiroshi Hisa Hisae Hisako Hitomi Hitomo Hitoshi Honami Hoshi Hoshie Hoshiko Hoshiyo Ichi Iku Ikue Ikuko Ikuyo Inoue Isako Ise Itsuko Izumi Joruri Jun Junko Juri Kadiri Kaede Kahori Kameko Kaneko Kaori Kaoru Kasuga Katsue Katsuko Katsumi Kayoko Kazue Kazuko Kazumi Keiko Kichi Kiko Kimie Kimiko Kin Kinuko Kinuye Kinuyo Kioko Kishi Kit Kita Kiyo Kiyoko Kiyomi Kochiyo Koi Koiso Koken Komachi Kumi Kumiko Kunie Kuniko Kyoko Machi Machiko Madoka Mae Maeko Maemi Mai Maiko Maki Makiko Mako Mami Mamiko Man Mana Manami Mari Mariko Maru Masae Masako Masami Masumi Matsu Maya Mayako Mayo Mayoko Mayu Mayuko Mayumi Megu Megumi Michi Michiko Midori Mieko Miho Mihoko Miiko Miki Miliko Mina Minako Mineko Mino Mio Misa Misako Misato Mitsu Mitsuko Mitsuyo Miwako Miya Miyako Miyo Miyoko Miyoshi Mizuki Momoko Mutsuko Mutsumi Naho Nahoko Nami Namie Namika Namiko Namiyo Nana Nanako Nanami Nao Naoko Naomi Naora Nari Nariko Narumi Natsuko Natsumi Nayoko Nene Nomi Nori Norie Noriko Nozomi Nyoko Ochiyo Oharu Oki Okichi Okiku Omitsu Otsu Otsune Raicho Raku Rei Reiko Remi Rie Rieko Rika Rikako Riku Rina Rinako Risa Risako Ritsuko Romi Rui Rumiko Ruri Ruriko Ryo Ryoko Sachi Sachiko Sadako Sae Saeko Saito Sakamae Saki Sakiko Sakue Sakuko Sakura Sakurako Sakuro Sama Sanako Saori Sata Satoko Satomi Sawako Saya Sayo Sayoko Sayuri Sei Seiko Seka Seki Sen Setsuko Shige Shinobu Shioko Shiori Shizu Shizue Shizuka Shoken Shoko Sué Sui Suko Sumi Sumie Sumiko Suzue Suzuko Tadako Tae Tai Takako Tama Tamafune Tamaki Tamami Tamiko Tamiyo Taniko Tansho Tara Teruyo Tokie Tokiko Tokiyo Toku Tomi Tomiko Tomoe Tomoko Tomomi Toshie Toshiko Toyoko Tsuki Tsukiyama Tsuya Ume Umeka Umeko Urako Utako Wazuka Yae Yaeko Yasu Yasuko Yayoi Yodo Yoko Yori Yoriko Yoshi Yoshike Yoshiko Yu Yui Yuka Yukako Yukari Yuki Yukiko Yukiyo Yuko Yuma Yumako Yumi Yumiko Yuri Yuriko Yusuke Yutsuko Yuya
+				Aishin Aizun Akomi Akona Aran Arun Atsuk Atsun Awan Ayamiyoki Basu Chino Eikotsu Fuma Fumie Haga Hane Haru Hashi Hato Hiba Hibe Hiko Hiono Hiri Hisayo Hisue Hiyama Hoko Hoshi Iban Iiman Ikomi Ikori Iman Imaon Inan Inon Inouen Ishin Iton Itsun Jiko Juri Kada Kagi Kahi Kaji Kako Kane Kano Kaori Kasu Kata Kawa Kiga Kiko Kima Kino Kiyoko Konoi Koyama Kumi Kura Kuwa Maka Mako Mami Mamoo Mana Mano Masa Masayo Masu Mata Matsai Matse Matseo Matsu Mayako Mega Meko Michi Mido Mihi Miko Mima Mina Mizu Mizue Moko Moma Mora Mori Mota Mura Murai Muri Nagi Naka Nakai Naki Nako Nami Nanoue Nari Nata Neko Nena Nishi Nobo Noma Nomi Nori Nosu Nume Nyoko Okan Omon Onon Oshin Oton Riko Riku Rine Roko Ryoko Sachi Sako Sata Satae Sato Seko Setsayo Shara Shide Shiki Shima Shotta Sima Sukao Suki Suko Suma Taka Take Taki Tama Tami Tano Tasuya Toko Toma Tomayo Tomi Toshie Tsachi Tsama Tsata Tsugu Tsuke Tsuzu Uekin Ukan Yaekorie Yaken Yakin Yanan Yawan Yayoikun Yazuk Yonin Yorit Yumin Yuzun
+			}
+
+			second_names = {
+				Yamato Izuruha Uzuurusha Ennakamui Onkamiyamukai Gujyuuri Shahhoro Tosukuru Naara Nakoku Retorumoshiri Ebennkuruga
+			}
+
+            regnal_first_names_male = {
+				Akihito Asahito Atsuhito Ayahito Chikahito Fumihito Fusahito Hidehito Hikohito Hirohito Hisahito Iyahito Kanehito Katahito Katsuhito Kazuhito Korehito Kotohito Kunihito Masahito Michihito Mihito Mitsuhito Morihito Motohito Munehito Mutsuhito Nagahito Narihito Naruhito Nobuhito Norihito Ohito Okihito Osahito Sadahito Satohito Takahito Tamehito Tanehito Taruhito Teruhito Tokihito Tomihito Tomohito Toohito Tsuguhito Tsunehito Yasuhito Yohito Yorihito Yoshihito Yukihito Yutahito
+				Akaen Aken Akin Aman Anon Aran Aron Atsuko Awan Chiri Damo Doma Done Ehan Ekin Eshin Fuji Fukai Funo Fusu Gawa Hari Haro Haru Hido Higa Hige Higo Higu Hihi Hike Hiko Hima Hine Hineo Hiomi Hira Hiro Hoke Hora Ichin Ideyon Igan Igon Iiman Iran Iron Ishin Itan Iwan Kahi Kaji Kake Kaki Kama Kani Kaoko Kara Kasu Katsa Katsu Kawa Kazo Kazu Kenka Kichi Kiki Kimo Kino Kinoe Kioka Kishi Kito Kitsa Kiyohi Kono Kosa Koto Kube Kudo Kugai Kuni Kunoye Kura Kuri Kuro Kusei Kyoshi Kyusu Mama Mamai Mano Mara Mari Maro Masa Masu Masuo Matsa Meiji Mihi Misa Mitsu Mochi Mone Mono Monoe Mota Mura Musha Mutso Naka Naki Nama Nichio Nishi Nobu Noka Noru Okan Onoh Onon Oshin Oshuko Otan Oukon Rofu Sabu Sahi Saka Saki Sambei Sashi Sasu Seko Shari Shashi Shiba Shida Shide Shigi Shika Shike Shima Shimai Shino Shira Shiro Shiru Shishioya Shitsai Soshi Sosu Suga Sugai Suhi Suke Suki Tada Taemi Taga Tagi Taka Takai Takaya Take Taki Tako Taku Tama Tara Tari Toka Toma Toro Toshi Toyoaki Toyohi Toyuki Tsabu Tsanyo Tsawa Tseki Tsumei Tsumi Uran Wano Yakan Yaken Yaron Yawan Yobein Yofun Yokin Yoron Yoshin Yotan Yotoyan Yukin
+			}
+
+            regnal_first_names_female = {
+				Aiko Akiko Atsuko Ayako Fumiko Fusako Kako Kazuko Mako Masako Nobuko Noriko Okiko Sachiko Sayako Shigeko Shizuko Takako Takiko Toshiko Tsuguko Yasuko Yoko
+				Aishin Aizun Akomi Akona Aran Arun Atsuk Atsun Awan Ayamiyoki Basu Chino Eikotsu Fuma Fumie Haga Hane Haru Hashi Hato Hiba Hibe Hiko Hiono Hiri Hisayo Hisue Hiyama Hoko Hoshi Iban Iiman Ikomi Ikori Iman Imaon Inan Inon Inouen Ishin Iton Itsun Jiko Juri Kada Kagi Kahi Kaji Kako Kane Kano Kaori Kasu Kata Kawa Kiga Kiko Kima Kino Kiyoko Konoi Koyama Kumi Kura Kuwa Maka Mako Mami Mamoo Mana Mano Masa Masayo Masu Mata Matsai Matse Matseo Matsu Mayako Mega Meko Michi Mido Mihi Miko Mima Mina Mizu Mizue Moko Moma Mora Mori Mota Mura Murai Muri Nagi Naka Nakai Naki Nako Nami Nanoue Nari Nata Neko Nena Nishi Nobo Noma Nomi Nori Nosu Nume Nyoko Okan Omon Onon Oshin Oton Riko Riku Rine Roko Ryoko Sachi Sako Sata Satae Sato Seko Setsayo Shara Shide Shiki Shima Shotta Sima Sukao Suki Suko Suma Taka Take Taki Tama Tami Tano Tasuya Toko Toma Tomayo Tomi Toshie Tsachi Tsama Tsata Tsugu Tsuke Tsuzu Uekin Ukan Yaekorie Yaken Yakin Yanan Yawan Yayoikun Yazuk Yonin Yorit Yumin Yuzun
+			}
+
+			regnal_second_names = {
+				Yamato
+				Akitan Amarin Aratoh Atachin Atoshin Domitsu Gawa Hama Higawa Hika Hikatsu Hikito Himatsu Himeyame Hinato Hira Hofu Ichihoh Ikukin Ikumin Imanoyan Irakin Ishiroh Izukan Izuoran Jimura Kama Kami Kanohi Kataki Katsu Kayama Kazaka Kika Kinyoone Kita Kitaka Kokumi Koma Konino Kubuki Kuchoshi Kura Kuru Kushobe Kyotaki Madai Magawa Maka Matakai Matsu Mihigi Mihiwa Minagi Mineyagu Minoma Mitsawa Mutsuda Naga Naka Nanai Nanama Nano Nanohe Nariyama Nihi Niihike Ninata Nogara Noma Noshuou Nuki Numagi Numi Obodan Okazan Okosen Orakin Osettsuma Sagamo Sagu Saikasu Sakokaya Sakoma Sawa Sekashi Shama Shara Shijiedai Shikino Shikonoya Shima Shiri Shiro Sukawa Sura Susaka Taakashi Tahika Takaicha Takasu Takawa Takyushi Tatora Teyamago Tochira Toki Toma Tosaki Tsuka Ujiezan Ujiotoh Unakuma Uratsumi Usakin Yarawan Yosenin
+			}
+		}
+	}
+}

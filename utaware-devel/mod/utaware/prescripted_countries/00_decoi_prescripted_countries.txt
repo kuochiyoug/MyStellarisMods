@@ -1,0 +1,129 @@
+default = {}
+
+UtawareYamato = {
+	name = "Yamato Empire"
+	spawn_enabled = yes # yes / no / always
+	
+	name_list = "decoi"
+	ship_prefix = "YMT"
+	
+	species_name = "Decoi"
+	species_plural = "Decoies"	#we should localize this!
+	species_adjective = "Decoi"
+	species_class = "Decoi"
+	#trait="trait_repugnant"
+	#trait="trait_conformists"
+	#trait="trait_communal"
+	trait="trait_yamato"
+	portrait = "Decoi"
+	adjective = "Yamato"
+	
+	government = "military_dictatorship"
+	ethic = "ethic_fanatic_militarist"
+	ethic = "ethic_collectivist"
+
+	#flags = { predatorstart_1 custom_start_screen }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Yamato"
+	planet_class = "pc_tropical"
+	system_name = "Witsurunemitia"
+	
+	graphical_culture = "molluscoid_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "decoi"
+			file = "yamato_flag.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "diagonal.dds"
+		}
+		colors={
+			"black"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	#leader = {
+	#	name = "Dolores Muwanga"
+	#	class = ruler
+	#	portrait = "human_female_05"
+	#	experience = 1200.0
+	#}
+	
+	ruler = {
+		name = "Anjyu"
+		gender = female
+		portrait = "Decoi_f1"
+		texture = 0
+		hair = 0
+		clothes = 0
+	}
+}
+
+UtawareTusukuru = {
+	name = "Tusukuru"
+	spawn_enabled = yes # yes / no / always
+	
+	name_list = "decoi"
+	ship_prefix = "TSK"
+	
+	species_name = "Decoi"
+	species_plural = "Decoies"	#we should localize this!
+	species_adjective = "Decoi"
+	species_class = "Decoi"
+	#trait="trait_repugnant"
+	#trait="trait_conformists"
+	#trait="trait_communal"
+	trait="trait_tosukuru"
+	portrait = "Decoi"
+	adjective = "Tosukuru"
+	
+	government = "divine_mandate"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_spiritualist"
+
+	#flags = { predatorstart_1 custom_start_screen }
+	
+	weapon = "tech_lasers_1"
+	ftl = hyperdrive
+	
+	planet_name = "Tusukuru"
+	planet_class = "pc_tropical"
+	system_name = "Utawarerumono"
+	
+	graphical_culture = "molluscoid_01"
+	city_graphical_culture = "arthropoid_01"
+	
+	empire_flag = {
+		icon= {
+			category = "decoi"
+			file = "hakuoro_mask.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "v.dds"
+		}
+		colors={
+			"dark_brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Hakuoro"
+		gender = male
+		portrait = "Hakuoro"
+		texture = 0
+		hair = 0
+		clothes = 0
+	}
+}
