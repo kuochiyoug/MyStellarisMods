@@ -17,10 +17,13 @@ UtawareYamato = {
 	trait="trait_yamato"
 	portrait = "Decoi"
 	adjective = "Yamato"
-	
-	government = "military_dictatorship"
-	ethic = "ethic_fanatic_militarist"
-	ethic = "ethic_collectivist"
+
+	civics = { "civic_nationalistic_zeal" "civic_aristocratic_elite" }	
+	authority = "auth_imperial"
+	government = gov_star_empire
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_militarist"
 
 	#flags = { predatorstart_1 custom_start_screen }
 	
@@ -85,9 +88,11 @@ UtawareTusukuru = {
 	portrait = "Decoi"
 	adjective = "Tosukuru"
 	
-	government = "divine_mandate"
-	ethic="ethic_xenophobe"
+	civics = { "civic_warrior_culture" "civic_philosopher_king" }	
+	authority = "auth_imperial"
+	government = gov_martial_empire
 	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_militarist"
 
 	#flags = { predatorstart_1 custom_start_screen }
 	
