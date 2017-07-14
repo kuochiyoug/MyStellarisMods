@@ -3,10 +3,10 @@ default = {}
 UtawareYamato = {
 	name = "Yamato Empire"
 	spawn_enabled = yes # yes / no / always
-	
+
 	name_list = "decoi"
 	ship_prefix = "YMT"
-	
+
 	species_name = "Decoi"
 	species_plural = "Decoies"	#we should localize this!
 	species_adjective = "Decoi"
@@ -18,7 +18,7 @@ UtawareYamato = {
 	portrait = "Decoi"
 	adjective = "Yamato"
 
-	civics = { "civic_nationalistic_zeal" "civic_aristocratic_elite" }	
+	civics = { "civic_nationalistic_zeal" "civic_aristocratic_elite" }
 	authority = "auth_imperial"
 	government = gov_star_empire
 	ethic = "ethic_xenophobe"
@@ -26,17 +26,17 @@ UtawareYamato = {
 	ethic = "ethic_militarist"
 
 	#flags = { predatorstart_1 custom_start_screen }
-	
+
 	weapon = "tech_lasers_1"
 	ftl = hyperdrive
-	
+
 	planet_name = "Yamato"
 	planet_class = "pc_tropical"
 	system_name = "Witsurunemitia"
-	
+
 	graphical_culture = "molluscoid_01"
 	city_graphical_culture = "arthropoid_01"
-	
+
 	empire_flag = {
 		icon= {
 			category = "decoi"
@@ -59,7 +59,7 @@ UtawareYamato = {
 	#	portrait = "human_female_05"
 	#	experience = 1200.0
 	#}
-	
+
 	ruler = {
 		name = "Anjyu"
 		gender = female
@@ -73,10 +73,10 @@ UtawareYamato = {
 UtawareTusukuru = {
 	name = "Tusukuru"
 	spawn_enabled = yes # yes / no / always
-	
+
 	name_list = "decoi"
 	ship_prefix = "TSK"
-	
+
 	species_name = "Decoi"
 	species_plural = "Decoies"	#we should localize this!
 	species_adjective = "Decoi"
@@ -87,25 +87,25 @@ UtawareTusukuru = {
 	trait="trait_tosukuru"
 	portrait = "Decoi"
 	adjective = "Tosukuru"
-	
-	civics = { "civic_warrior_culture" "civic_philosopher_king" }	
+
+	civics = { "civic_warrior_culture" "civic_philosopher_king" }
 	authority = "auth_imperial"
 	government = gov_martial_empire
 	ethic="ethic_fanatic_spiritualist"
 	ethic="ethic_militarist"
 
 	#flags = { predatorstart_1 custom_start_screen }
-	
+
 	weapon = "tech_lasers_1"
 	ftl = hyperdrive
-	
+
 	planet_name = "Tusukuru"
 	planet_class = "pc_tropical"
 	system_name = "Utawarerumono"
-	
+
 	graphical_culture = "molluscoid_01"
 	city_graphical_culture = "arthropoid_01"
-	
+
 	empire_flag = {
 		icon= {
 			category = "decoi"
@@ -122,13 +122,11 @@ UtawareTusukuru = {
 			"null"
 		}
 	}
-	
+
 	ruler = {
 		name = "Hakuoro"
 		gender = male
 		portrait = "Hakuoro"
-		texture = 0
-		hair = 0
-		clothes = 0
+		trait =  trait_hakuoro
 	}
 }

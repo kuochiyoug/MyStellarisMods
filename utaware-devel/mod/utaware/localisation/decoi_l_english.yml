@@ -1,11 +1,11 @@
 ﻿l_english:
 
  IS_SPECIES_CLASS_TRIGGER:0 "Is corresponding species class"
- 
+
  FLAG_CATEGORY_decoi:0 "Decoi"
- 
- START_SCREEN_YAMATO:0 "Yamato is a great Empire built by Mikato"
- 
+
+ START_SCREEN_YAMATO:0 "Yamato is a great Empire built by Mikato! Let's show the power of Yamato to the whole universe!"
+
  EMPIRE_DESIGN_UtawareYamato:0 "Yamato Empire"
  EMPIRE_DESIGN_UtawareYamato_desc:0 "Since Mikato dead, Yamato Empire fall into a long civil war against usurper and finally ends on Tensi Anjyu. However the damage fron atmosphere adjustment sattlite is un-inversable force Yamato Empire run into space and search for better space for live."
  EMPIRE_DESIGN_UtawareTusukuru:0 "Tusukuru"
@@ -20,7 +20,8 @@
  trait_aturukuruka_desc:0 "This leader has the powerful mask that gave from Mikato. This mask boost the damage of weapon, however cut the life of user"
  trait_aturukuruka_defend:0 "Aturukuruka of Defend"
  trait_aturukuruka_defend_desc:0 "This leader has the powerful mask that gave from Mikato. This mask boost the defensive ability, however cut the life of user"
- 
- 
- 
+
+trait_hakuoro:0 "Ice Man: Hakuoro"
+trait_hakuoro_desc:0 "The God, The Utawarerumono, Witsarunemitia"
+
  name_list_decoi:0 "Utawarerumono"

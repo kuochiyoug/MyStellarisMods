@@ -44,4 +44,20 @@ trait_aturukuruka_defend = {
 		leader_skill_levels = 4
 	}
 
+trait_hakuoro = {
+  	cost = 0
+  	modification = no
+  	icon = "gfx/interface/icons/traits/tusukuru_trait.dds"
+
+  	leader_trait = no                      ## This is a leader trait
+	initial = yes
+        #leader_class = {ruler}
+  	modifier = {
+	        pop_happiness = 0.3
+  	}
+  	self_modifier = {
+  		leader_age = 500
+  		leader_skill_levels = 4
+  	}
+
 }
