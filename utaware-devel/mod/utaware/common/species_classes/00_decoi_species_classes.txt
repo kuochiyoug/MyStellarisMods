@@ -1,4 +1,6 @@
 Decoi = {
+archetype = BIOLOGICAL
+possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
 	randomized = no
 	portraits = {
 		"Decoi"

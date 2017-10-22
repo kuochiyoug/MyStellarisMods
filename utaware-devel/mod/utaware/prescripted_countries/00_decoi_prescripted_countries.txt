@@ -68,6 +68,7 @@ UtawareYamato = {
 		hair = 0
 		clothes = 0
 	}
+	immortal_leaders = yes
 }
 
 UtawareTusukuru = {
@@ -129,4 +130,5 @@ UtawareTusukuru = {
 		portrait = "Hakuoro"
 		trait =  trait_hakuoro
 	}
+	immortal_leaders = yes
 }

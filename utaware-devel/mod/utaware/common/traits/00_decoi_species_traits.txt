@@ -3,13 +3,13 @@
 ##################
 
 trait_tosukuru = {
-	cost = 2
-	initial = no
+	cost = 1
+	initial = yes
 	modification = no
 	sentient = no
 	icon = "gfx/interface/icons/traits/tusukuru_trait.dds"
 	#opposites = { "trait_yamato"}
-
+  allowed_archetypes = { BIOLOGICAL }
 	modifier = {
 		edict_influence_cost = -0.5
 		leader_skill_levels = 2
@@ -26,17 +26,18 @@ trait_tosukuru = {
 		pop_food_req_mult = 0.15
 		pop_migration_time = -1
 		garrison_health = 0.25
+		immortal_leaders = yes
 	}
 }
 
 trait_yamato = {
-	cost = 2
-	initial = no
+	cost = 1
+	initial = yes
 	modification = no
 	sentient = no
 	icon = "gfx/interface/icons/traits/yamato_trait.dds"
 	opposites = { "trait_tosukuru" }
-
+  allowed_archetypes = { BIOLOGICAL}
 	modifier = {
 		leader_skill_levels = 1
 		species_leader_exp_gain = 0.50
@@ -52,5 +53,6 @@ trait_yamato = {
 		tile_resource_engineering_research_mult = -0.3
 		tile_resource_physics_research_mult = -0.3
 		tile_resource_society_research_mult = -0.3
+		immortal_leaders = yes
 	}
 }
